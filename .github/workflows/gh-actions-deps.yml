@@ -1,14 +1,14 @@
-name: gh-refs-deps
+name: js greetings
 on: [push]
 jobs:
   gh-actions-refs:
     runs-on: ubuntu-latest
     steps:
-      - name: JS actions
+      - name: JS actions steps
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: Sunil
 
-      - name: log greeting
+      - name: log greeting steps
         run: echo "${{ steps.greet.outputs.time }}"
