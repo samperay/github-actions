@@ -9,3 +9,9 @@ jobs:
 
       - name: step2
         run: echo "this is step2"
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: job2-step1
+        run: echo "job2-step1"
