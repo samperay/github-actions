@@ -13,3 +13,4 @@ jobs:
         run:  |
           echo "this is for multiple job1"
           echo "helllooooo"
+          eco "this will be failed"
